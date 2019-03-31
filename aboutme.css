@@ -1,0 +1,71 @@
+/* BASIC SETUP */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #555;
+    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    letter-spacing: .8px;
+}
+
+/* REUSABLE COMPONENTS */ 
+
+
+body {  
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* MAIN NAV */
+
+.navbar-inverse .navbar-nav  li a {
+    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+}
+
+/* CONTAINER */
+
+.caixa {
+    margin-top: 5%;
+}
+
+.caixa h1 { 
+    text-align: center;
+    color: black;
+    font-size: 140%;
+    font-weight: 650;
+}
+
+.caixa h1 span {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 10px;
+}
+
+.my-row {
+    margin-top: 3%;
+    width: 100%;
+    text-align: justify;
+    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+}
+
+.my-row h3 {
+    margin-top: 3%;
+    padding: 1%;
+}
+
+.my-row span {
+    font-size: 80%;
+}
+
+.perfilPhoto {
+    padding-top: 7%; 
+    width: 130%;
+}

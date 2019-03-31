@@ -1,0 +1,85 @@
+/* BASIC SETUP */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #555;
+    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    letter-spacing: .8px;
+}
+
+/* REUSABLE COMPONENTS */ 
+
+body {  
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* MAIN NAV */
+
+.navbar-inverse .navbar-nav  li a {
+    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+}
+
+/* CONTAINER */
+
+.project-image {
+    max-width: 100%;
+    margin-bottom: 10%;
+}
+
+.project-image3d {
+    width: 100%;
+    margin-bottom: 10%;
+    height: 90%;
+}
+
+.caixa {
+    margin-top: 5%;
+}
+
+.caixa h1 { 
+    text-align: center;
+    color: black;
+    font-size: 140%;
+    font-weight: 650;
+}
+
+.caixa h1 span {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 10px;
+}
+
+.section-about-text {
+    padding: 5%;
+    text-align: justify;
+    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+}
+
+.white-box p {
+    font-weight: 200;
+    color: #737373;
+    text-align: left;
+    font-size: 110%;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+.item {
+    width: auto;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+

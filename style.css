@@ -1,0 +1,75 @@
+/* BASIC SETUP */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #555;
+    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    letter-spacing: .8px;
+}
+
+/* REUSABLE COMPONENTS */ 
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(images/space.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+/* MAIN NAV */
+
+.navbar-inverse .navbar-nav  li a {
+    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+}
+
+/* HEADING */
+
+.rocket-girl h1 {
+    position: absolute;
+    width: 1140px;
+    top: 40%;
+    left: 5%;  
+    color: white;
+    font-size: 350%;
+    letter-spacing: 2px;
+    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+}
+
+.main-nav {
+    list-style: none;
+    position: relative;
+    margin-top: 3%;
+    margin-left: 15%;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #737373;
+    text-decoration: none;
+    font-size: 78%;
+    border-left:1px solid #FBFAFA;
+    padding-left: 5px;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    color: white;
+}
