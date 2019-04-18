@@ -24,13 +24,19 @@ body {
     height: 100vh;
 }
 
-/* MAIN NAV */
+/* NAV */
 
-.navbar-inverse .navbar-nav  li a {
-    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+.rocket {
+    width: 40px;
+    padding-right: 10px;
 }
 
-/* CONTAINER */
+.navbar-nav li a {
+    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+    font-size: 75%;
+}
+
+/* HEADER */
 
 .caixa {
     margin-top: 5%;
@@ -49,9 +55,11 @@ body {
     padding: 10px;
 }
 
+/* ABOUT DESCRIPTION */
+
 .my-row {
     margin-top: 3%;
-    width: 100%;
+    width: 106%;
     text-align: justify;
     font-family: 'Roboto Mono', 'Arial', 'sans-serif';
 }
@@ -59,13 +67,16 @@ body {
 .my-row h3 {
     margin-top: 3%;
     padding: 1%;
+    font-size: 100%;
+    font-weight: 650;
 }
 
 .my-row span {
-    font-size: 80%;
+    font-size: 60%;
 }
 
 .perfilPhoto {
     padding-top: 7%; 
     width: 130%;
 }
+

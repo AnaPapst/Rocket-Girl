@@ -23,24 +23,20 @@ body {
     height: 100vh;
 }
 
-/* MAIN NAV */
+/* NAV */
 
-.navbar-inverse .navbar-nav  li a {
+.rocket {
+    width: 40px;
+    padding-right: 10px;
+}
+
+.navbar-nav li a {
     font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+    font-size: 75%;
 }
 
-/* CONTAINER */
 
-.project-image {
-    max-width: 100%;
-    margin-bottom: 10%;
-}
-
-.project-image3d {
-    width: 100%;
-    margin-bottom: 10%;
-    height: 90%;
-}
+/* HEADER */
 
 .caixa {
     margin-top: 5%;
@@ -59,27 +55,47 @@ body {
     padding: 10px;
 }
 
+/* DESCRIPTION */
+
 .section-about-text {
-    padding: 5%;
+    padding: 4%;
     text-align: justify;
     font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+    font-size: 70%; 
+    letter-spacing: .8px;
 }
 
-.white-box p {
-    font-weight: 200;
-    color: #737373;
-    text-align: left;
-    font-size: 110%;
-}
+
+/* CAROUSEL SIZE*/
 
 .wrapper {
-    width: 80%;
+    width: 50%;
     margin: auto;
 }
-.item {
-    width: auto;
-    height: auto;
-    display: block;
-    overflow: hidden;
+
+.carousel-caption {
+    font-size: 15px;
 }
 
+/* ICONS LOGO*/
+
+.github-logo {
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.logo {
+    width: 50px;
+}
+
+.logos {
+    padding-bottom: 2%;
+}
+
+.blacktext {
+    color: black;
+    font-weight: 900;
+}

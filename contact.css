@@ -23,18 +23,23 @@ body {
     height: 100vh;
 }
 
-.navbar-inverse .navbar-nav  li a {
-    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
-}
-.caixa {
-    margin-top: 5%;
-    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+/* NAV */
+
+.rocket {
+    width: 40px;
+    padding-right: 10px;
 }
 
-.corpo {
+.navbar-nav li a {
     font-family: 'Roboto Mono', 'Arial', 'sans-serif';
-    letter-spacing: 3px;
-    margin-top: 10%;
+    font-size: 75%;
+}
+
+/* HEADER */
+
+
+.caixa {
+    margin-top: 5%;
 }
 
 .caixa h1 { 
@@ -50,16 +55,33 @@ body {
     padding: 10px;
 }
 
+/* DADOS */
+
+.row {
+    font-size: 60%;
+    letter-spacing: 1px;
+    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
 ion-icon {
     font-size: 16px;
-  }
-
-.formulario {
-    margin-right: 8%;
+    padding-top: 5px;
 }
 
-.dados {
-    margin-top: 5%;
-    text-align: center;
+a {
+    color: #EB9F9F;
 }
+
+a:hover { 
+    color: #EB9F9F;
+    background-color: #282828;
+}
+
+.logo-pink {
+    color: #EB9F9F;
+}
+
+
 
